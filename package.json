@@ -1,7 +1,7 @@
 {
   "name": "@sellside/eslint-config-sellside",
   "description": "ESLint configuration file for sellside's JavaScript projects.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/sellside/eslint-config-sellside",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "sellside/eslint-config-sellside",

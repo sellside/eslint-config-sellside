@@ -1,0 +1,43 @@
+{
+  "name": "@sellside/eslint-config-sellside",
+  "description": "ESLint configuration file for sellside's JavaScript projects.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/sellside/eslint-config-sellside",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "sellside/eslint-config-sellside",
+  "bugs": {
+    "url": "https://github.com/sellside/eslint-config-sellside/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^1.0.0"
+  },
+  "keywords": [
+    "config",
+    "eslint",
+    "sellside"
+  ],
+  "eslintConfig": {
+    "extends": "./eslintrc.json"
+  },
+  "verb": {
+    "toc": false,
+    "layout": null,
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
